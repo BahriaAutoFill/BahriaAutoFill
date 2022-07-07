@@ -7,7 +7,7 @@
     {
       var openTabsFunction = function openTabs()
       {
-          links = document.getElementsByTagName("a");
+          links = surveysTab.document.getElementsByTagName("a");
 
           for (index = 0; index < links.length; index++)
           {
@@ -98,9 +98,9 @@
           }
       }
 
-      script = document.createElement("script");
+      script = surveysTab.document.createElement("script");
       script.innerHTML = openTabsFunction.toLocaleString() + " openTabs();";
-      document.head.appendChild(script);
+      surveysTab.document.head.appendChild(script);
     }
   </script>
 </head>
