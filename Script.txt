@@ -88,8 +88,7 @@ function injectFunction()
                         }
                     }
 
-                    ButtonClick(WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$BodyPH$surveyUserControl$btnSubmit", "", true, "Survey", "", false, true)));
-
+                    document.getElementById("BodyPH_surveyUserControl_btnSubmit").click();
                 };
             }
         }
