@@ -88,7 +88,7 @@ function injectFunction()
                         }
                     }
 
-                    document.getElementById("BodyPH_surveyUserControl_btnSubmit").click();
+                    tab.document.getElementById("BodyPH_surveyUserControl_btnSubmit").click();
                 };
             }
         }
