@@ -88,7 +88,7 @@ function injectFunction()
                         }
                     }
 
-                    WebForm_DoPostBackWithOptions(new WebForm_PostBackOptions("ctl00$BodyPH$surveyUserControl$btnSubmit", "", true, "Survey", "", false, true));
+                    
                 };
             }
         }
